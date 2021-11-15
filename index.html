@@ -30,7 +30,10 @@
 	<a-scene embedded arjs='trackingMethod: best;'>
 		
 		<a-assets>
-			<img id="github_icon" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_github-512.png">
+            <video preload="none" id="invitation" response-type="arraybuffer" loop="false" crossorigin webkit-playsinline playsinline controls>
+                <source  src="vdo.mp4">
+            </video>
+            <img id="github_icon" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_github-512.png">
 			<img id="insta_icon" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-512.png">
 			<img id="linkedin_icon" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_likedin-512.png">
 			<img id="facebook_icon" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_facebook-512.png">
@@ -38,9 +41,7 @@
 		
 		<a-plane rotation="-90 0 0" color="#3199f9" opacity="0.95" navigate-on-click="url: https://www.linkedin.com/in/bipin-parajuli-6580a3190/">
 			<!-- <a-image src="https://s.gravatar.com/avatar/78156753f9d8feaebe2418780bdc262b?s=250"></a-image> -->
-            <video preload="none" id="invitation" response-type="arraybuffer" loop="false" crossorigin webkit-playsinline playsinline controls>
-                <source  src="vdo.mp4">
-            </video>
+            
             <a-text align="center" value="Hello,!\nThis is a business card.\nMade by BIPIN\nBCA XAVIER INTERNATIONAL COLLEGE\nFind below the links to various platforms.\P.S.Exhibits random behaviour when opening links." color="black" width="1" z-offset="0.1"></a-text>
 		</a-plane>
 		
